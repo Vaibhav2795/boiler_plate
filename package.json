@@ -14,7 +14,6 @@
     "test-all": "npm run check-format && npm run check-lint && npm run build"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^19.0.4",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18"
@@ -25,6 +24,7 @@
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "14.1.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",

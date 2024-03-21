@@ -23,13 +23,13 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
       1,
       {
         extensions: [".ts", ".tsx", ".js", ".jsx"],
       },
     ],
-    "react/jsx-props-no-spreading": "off",
   },
   settings: {
     react: {
